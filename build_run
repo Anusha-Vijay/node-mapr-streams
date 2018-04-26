@@ -1,0 +1,5 @@
+export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/opt/mapr/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/mapr/lib
+./clean
+npm i --unsafe-perm
+node src/mstreams.js --no-warnings

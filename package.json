@@ -1,0 +1,25 @@
+{
+  "name": "mapr-streams-node",
+  "version": "1.0.0",
+  "description": "native bindings for mapr streams",
+  "main": "mstreams.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cmake-js compile"
+  },
+  "author": "Shayan Sinha<shayan.sinha12@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.27",
+    "bindings": "^1.3.0",
+    "node-addon-api": "^1.2.0",
+    "cmake-js": "^3.5.0"
+  },
+  "dependencies": {
+    "boost-lib": "^0.11.3",
+    "string-to-arraybuffer": "^1.0.0"
+  }
+}
